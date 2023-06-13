@@ -564,6 +564,10 @@ img {
   display: flex;
   gap: 24px;
 }
+
+.subscribe-label{
+  
+}
 .subcribe-input{
   padding: 8px;
   padding-left: 16px;
