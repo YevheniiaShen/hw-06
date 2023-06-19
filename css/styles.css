@@ -203,7 +203,7 @@ img {
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  padding: 72px 24px 24px 24px;
 }
 .is-hidden{
   opacity: 0;
@@ -260,7 +260,7 @@ img {
   text-align: center;
  letter-spacing: 0.02em;
  color: #2E2F42;
- margin-bottom: 8px;
+ margin-bottom: 16px;
  }
 .label-js{
   position: relative;
