@@ -262,7 +262,7 @@ img {
  color: #2E2F42;
  margin-bottom: 16px;
  }
-.label-js{
+/* .label-js{
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -374,7 +374,7 @@ img {
   color: #4D5AE5;
   letter-spacing: 0.04em;
   text-decoration-line: underline;
-}
+} */
 
 .btn-submit{
   margin: 0 auto;
