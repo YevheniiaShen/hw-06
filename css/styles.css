@@ -393,7 +393,7 @@ img {
  color: rgba(46, 47, 66, 0.4);
 }
 /* Checkbox */
-.label-checkbox{
+/* .label-checkbox{
   position: relative;
   display: flex;
   margin-bottom: 24px;
@@ -444,7 +444,7 @@ img {
   color: #4D5AE5;
   letter-spacing: 0.04em;
   text-decoration-line: underline;
-} */
+} */ */
 
 .btn-submit{
   margin: 0 auto;
