@@ -45,12 +45,12 @@ img {
 }
 
 .container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
-  /* outline: 2px solid tomato; */
 }
+
 
 /* Header */
 
@@ -284,14 +284,20 @@ img {
 /* Our team */
 
 .list-team {
-  display: flex;
+  column-gap: 24px;
   gap: 24px;
 }
 
 .team {
   background-color: var(--light-background-color);
-  padding: 120px 0;
+  padding: 96px 0;
 }
+
+
+
+
+
+
 
 .section-header {
   font-weight: 700;
@@ -309,6 +315,8 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .employee-description {
@@ -896,4 +904,53 @@ footer .email-input::placeholder {
 .portfolio-link:hover .overlay,
 .portfolio-link:focus .overlay {
   transform: translate(0, 0);
+}
+
+
+/* Media */
+
+
+
+@media screen and (min-width: 428px) {
+  .container {
+    width: 428px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+
+/* Team section */
+
+@media screen and (min-width: 768px){
+  .list-team{
+    display: flex;
+    justify-content: center;
+     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+}  
+
+@media screen and (min-width: 1440px){
+  .team{
+    padding: 120px 0;
+  }
+  
+}
+
+.team > .container, .clients > .container{
+  max-width: 552px;
 }
